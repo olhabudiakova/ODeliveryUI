@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Цезарь",
+    "price":  109,
+    "composition": "куриное филе, копченый бекон, моцарелла, пармезан, ромен, помидоры черри, яйцо перепелиное, с соусом цезарь",
+    "link": "https://pomodoro.od.ua/wp-content/uploads/2019/05/cezar.jpg"
+  },
+  {
+    "title": "Примавера",
+    "price": 99,
+    "composition": "классическая итальянская паста с овощами",
+    "link": "https://pomodoro.od.ua/wp-content/uploads/2019/05/primavera.jpg"
+  },
+  {
+    "title": "Митболы из телятины и свинины",
+    "price": 149,
+    "composition": "с соусом маринара, подаются с гарниром на выбор",
+    "link": "https://pomodoro.od.ua/wp-content/uploads/2019/05/Mitboly-iz-telyatiny-i-svininy.jpg"
+  }
+]

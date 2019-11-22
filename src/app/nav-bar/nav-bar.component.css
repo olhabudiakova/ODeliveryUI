@@ -1,0 +1,50 @@
+input[type=text] {
+  width: 150px;
+  -webkit-transition: width 0.5s ease-in-out;
+  transition: width 0.5s ease-in-out;
+  padding: 8px 10px;
+  border-radius: 15px;
+  margin-left: 10px;
+}
+
+/* When the input field gets focus, change its width to 100% */
+input[type=text]:focus {
+  width: 70%;
+}
+
+.btn {
+  border: 2px solid wheat;
+  background-color: Transparent;
+  background-repeat:no-repeat;
+  color: wheat;
+  padding: 8px 16px;
+  border-radius: 15px;
+  font-size: 14px;
+  font-palette: light;
+  cursor: pointer;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: whitesmoke;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 0; /* Position the navbar at the top of the page */
+  width: 100%; /* Full width */
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change background on mouse-over */
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+  border-radius: 15px;
+}

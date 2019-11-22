@@ -1,0 +1,18 @@
+<div>
+  <h2>Популярно в вашем городе</h2>
+    <div class="row" >
+      <div class="column" *ngFor = "let items of itemsCosts | async">
+        <div class="card">
+          <img src={{items.link}} alt="Jane" style="width:100%">
+          <div class="container">
+            <h2>{{items.title}}</h2>
+            <p class="title">{{items.price}} &#8372;</p>
+            <p>Состав: {{items.composition}}</p>
+            <p><button class="button">Добавить в корзину</button></p>
+            <p><button class="button">Изменить позицию</button></p>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
+

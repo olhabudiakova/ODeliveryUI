@@ -1,0 +1,27 @@
+<h2>Здравствуйте, {{user.name}}</h2>
+<div *ngIf="user">
+  <p>ФИО: {{user.name}} {{user.surname}}</p>
+  <p>Адрес: {{user.address}}</p>
+</div>
+<hr>
+<h2>Редактирование личной информации</h2>
+<form [formGroup]="updateForm" (ngSubmit)="onSubmit(updateForm.value)">
+
+  <div>
+    <label for="name">
+      Имя
+    </label>
+    <input id="name" type="text" formControlName="name">
+  </div>
+
+  <div>
+    <label for="address">
+      Адрес
+    </label>
+    <input id="address" type="text" formControlName="address">
+  </div>
+
+  <button (click)="addInfo()">Изменить данные</button>
+
+</form>
+
